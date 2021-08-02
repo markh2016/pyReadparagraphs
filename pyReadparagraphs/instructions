@@ -1,0 +1,59 @@
+﻿This tutorial is  for Linux only assuming you already have an account on GitHub. 
+
+If you dont then  go to www.github.com and set up one  
+
+It will also require you to install Git for your OS. You can check to see if you already have it installed by entering git –version into your terminal 
+You can find the install for your OS through a simple search if you need it
+
+ 
+Ok lets start 
+
+
+Instruction:1
+
+
+Create a  git repository for your project on github  Copy the  repository name and  paste this into notepad or Geany  so that you have this ready for later 
+
+Instruction:2
+
+
+On Linux open a terminal as displayed and type the following command as follows :  whereis git.  
+This should return a path  as shown in the terminal.  
+Copy this !! 
+
+
+Instruction:3
+
+
+Next open QT designer and go to  tools >> options >> git 
+Paste  the path into the QT’s  prepend to path field then click  apply followed by OK 
+
+
+Instruction:4
+
+
+Create a new project in QT Ive called mine Test  
+
+
+Instruction:5
+
+
+Navigate to that folder  and  start a terminal in that folder  and issue the following command :  git clone https://github.com/markh2016/Test.git
+
+
+Instruction:6
+
+
+Within QT go to Tools >> Git >> Manage repository >> Manage Remotes 
+A prompt screen will pop up.  Now click add 
+In the name field  enter your repository name 
+In the URL field enter the address of your repository 
+
+
+Instruction:7
+
+
+Navigate to your qt projects folder and you will see a directory named after you project 
+Mine is  “Test”  and its within “Test”   
+Check show hidden files 
+Copy  all files in this  one directory up and delete that folder
