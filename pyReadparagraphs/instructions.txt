@@ -65,3 +65,7 @@ Navigate to your qt projects folder and you will see a directory named after you
 Mine is  'Test'  and its within 'Test'   
 Check show hidden files 
 Copy  all files in this  one directory up and delete that folder
+
+Instruction:8
+
+
